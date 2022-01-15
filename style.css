@@ -486,6 +486,9 @@ section.footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
+    .popular-collection {
+        padding: 0 15px;
+    }
     .see-more {
         text-align: center;
     }
