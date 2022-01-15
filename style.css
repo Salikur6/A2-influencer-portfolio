@@ -93,6 +93,11 @@ a.button {
     color: #fff;
     margin: 20px 0;
     border-radius: 40px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25), -8px -8px 12px rgba(255, 255, 255, 0.3);
+}
+
+a.button:hover {
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25) inset, -8px -8px 12px rgba(255, 255, 255, 0.3) inset;
 }
 
 i.fas.fa-arrow-right {
@@ -102,6 +107,24 @@ i.fas.fa-arrow-right {
 
 .right-banner-img img {
     width: 100%;
+}
+
+.bg-banner:hover image {
+    transition: animation 1s;
+    transform-origin: 50%;
+    animation: camera 2s linear .1s 1 normal;
+}
+
+@keyframes camera {
+    0% {
+        transform: rotate( 0deg);
+    }
+    50% {
+        transform: rotate( 360deg);
+    }
+    100% {
+        transform: rotate( 0deg);
+    }
 }
 
 
