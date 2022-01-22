@@ -110,20 +110,16 @@ i.fas.fa-arrow-right {
 }
 
 .bg-banner:hover image {
-    transition: animation 1s;
     transform-origin: 50%;
-    animation: camera 2s linear .1s 1 normal;
+    animation: camera 1s linear .1s 1 normal;
 }
 
 @keyframes camera {
     0% {
         transform: rotate( 0deg);
     }
-    50% {
-        transform: rotate( 360deg);
-    }
     100% {
-        transform: rotate( 0deg);
+        transform: rotate( 360deg);
     }
 }
 
